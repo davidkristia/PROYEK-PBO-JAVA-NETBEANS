@@ -1,0 +1,30 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Author     : DAVID
+*/
+
+.white-bg{
+    -fx-background-color: #fff;
+}
+
+.btn{
+    -fx-background-color: linear-gradient(to bottom right, #0aae51, #01c976);
+    -fx-cursor: hand;
+    -fx-text-fill: #fff;
+}
+
+.btn:hover{
+    -fx-background-color: linear-gradient(to bottom right, #00d764, #04e17e);
+}
+
+.textfield{
+    -fx-border-width: .5px; 
+}
+
+.textfield:focused{
+    -fx-border-color: linear-gradient(to bottom right, #0aae51, #01c976);
+    -fx-border-width: .8px; 
+}
